@@ -1,11 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navigation-bar">
+            <h3 class="nav-title">Fitness</h3>
+            <ul class="nav-ul">
+                <li class="nav-home"><a href="Home.html"><span style="color: white;">Home</span></a></li>
+                <li><a href="Service.html" class="nav-color">Service</a></li>
+                <li><a href="contact.html" class="nav-color">Contact</a></li>
+                <li><a href="about.html" class="nav-color">About</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="banner-content">
+                <h2 class="banner-head"> Get Body in <span style="font-family:  'Miama', sans-serif;
+                font-weight: 800; font-size: 6.4rem;">Shape</span> and stay healthy</h2>
+                <p style="color:rgb(96,96,96)">A huge selection to health and fitness content, healthy recipes<br> and
+                    transformation stories to help you get fit and stay fit!</p>
+                <div class="banner-btn">
+                    <button class="btn-primary">Join Club Now</button>
+                    <button class="btn-secondary">Download App</button>
+
+                </div>
+            </div>
+            <div class="img-part">
+
+                <div class="body-img">
+
+                    <img class="body" src="./images/Images 2.png" alt="bodyman">
+                </div>
+
+
+                <div class="box-1">
+                    <img src="./images/orange-circle.png" alt="orange-circle" width="20%" height="40%">
+                    <div class="box-content">
+
+                        <h4 style="color:white">350+</h4>
+                        <p style="color:rgb(96,96,96)">Vedio Tutorial</p>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="box-content">
+                        <h2>500+</h4>
+                            <p style="color:rgb(96,96,96)">Free Workout Vedios</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="change-habit">
+            <div class="change-habit-section-content">
+                <h2 class="change-habit-head">Change Your Habits</h2>
+                <p style="color:rgb(96,96,96)">We believe fitness should be accessible to everyone,everywhere,regardless
+                    of income or <br> access to a gym</p>
+            </div>
+            <div class="card-container">
+
+                <div class="card">
+                    <img src="./images/image 3.png" class="card-img" alt="Movement">
+                    <div class="card-content">
+
+                        <h4 style="color:rgb(255, 255, 255)">Movement</h4>
+                        <p style="color:rgb(96,96,96)">We Believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/image 2.png" class="card-img" alt="Time">
+                    <div class="card-content">
+
+                        <h4 style="color:rgb(255, 255, 255)">Time</h4>
+                        <p style="color:rgb(96,96,96)">We Believe fitness should be accessible to everyone</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/image 4.png" class="card-img" alt="Practice">
+                    <div class="card-content">
+
+                        <h4 style="color:rgb(255, 255, 255)">Practice</h4>
+                        <p style="color:rgb(96,96,96)">We Believe fitness should be accessible to everyone</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./images/image 5.png" class="card-img" alt="Weight Loss">
+                    <div class="card-content">
+
+                        <h4 style="color:rgb(255, 255, 255)">Weight Loss</h4>
+                        <p style="color:rgb(96,96,96)">We Believe fitness should be accessible to everyone</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="run-section">
+            <div class="run-section-content">
+                <h2 class="run-head">Run an Extra<br>Mile Easily</h2>
+                <p style="color:rgb(96,96,96)">We believe fitness should be accessible to everyone,everywhere,regardless of income or acess to
+                    a gym,with hundreds of professoinal workouts</p>
+                    <button class="btn-primary">Join Now</button>
+            </div>
+            <div class="run-img">
+                <img src="./images/run.jpg" class="run-image" width="80%">
+            </div>
+        </section>
+
+        <section class="bmi-calculator">
+            <h2 class="run-head">BMI Calculator</h2>
+            <p style="color:rgb(96,96,96)">We believe fitness should be accessible to everyone,everywhere,regardless of income or <br> acess to
+                a gym</p>
+        </section>
+
+        <section class="bmi-clac-section">
+           <div class="bmi-table">
+            <h2 class="run-head">BMI calculator Chart</h2>
+            <table >
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                  
+                </tr>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underwight</td>
+                  
+                </tr>
+                <tr>
+                  <td>18.5-24.9/td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                    <td>25.0-29.9</td>
+                    <td>Overweight</td>
+                  </tr>
+                  <tr>
+                    <td>30.0-and above</td>
+                    <td>Obese</td>
+                  </tr>
+              </table>
+           </div>
+
+           <div class="form">
+            <div class="form-content">
+                <h2 class="run-head">Calculate your BMI</h2>
+                <P style="color:rgb(96,96,96);">We believe fitness should be accessble to everyone,everywhere,regardless of <br> income or acess to a gym</P>
+                <form class="form-container">
+                    <input type="text" name="Height/cm" id="Height/cm" placeholder="Height/cm">
+                    <input type="text" name="Weight/kg" id="Weight/kg" placeholder="Weight/kg">
+                    <input type="text" name="Age" id="Age" placeholder="Age">
+                    <!-- <input type="text" name="Height/cm" id="Height/cm" placeholder="Height/cm"> -->
+                    <!-- <input type="text" name="Height/cm" id="Height/cm" placeholder="Height/cm"> -->
+                    <select name="Sex" id="Sex" class="sel1">
+                        <option>sex</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <select class="sel2"  name="Select an activity factor" id="Select an activity factor">
+                        <option >Select an activity factor</option>
+                        <option value="Formula-1">Formula-1</option>
+                        <option value="Formula-2">Formula-2</option>
+                    </select>
+                </form>
+                <button class="btn-primary">Calculate</button>
+            </div>
+           </div>
+        </section>
+
+        <section class="team-member-section">
+            <div class="team-section-content">
+
+                <h2 class="run-head">Meet Our Team</h2>
+                <p style="color:rgb(96,96,96)">We believe fitness should be accessible to everyone,everywhere,regardless of income or <br> acess to
+                    a gym</p>
+            </div>
+
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+            <div class="team-member-container">
+                <div class="team-content">
+                    <h4>Jerome Bell</h4>
+                    <p>Trainer</p>
+                </div>
+                <div class="team-img">
+                    <img src="./images/trainer1.png" alt="trainer" width="10%">
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>
