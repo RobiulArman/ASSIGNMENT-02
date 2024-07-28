@@ -12,10 +12,13 @@ body
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    max-width: 1440px;
-    margin: 0 auto;
+    /* max-width: 1440px; */
+    /* margin: 0 auto; */
 }
-
+/* .menu
+{
+   display: none;
+} */
 /* primary color  */
 .primary-color
 {
@@ -23,9 +26,12 @@ body
 }
  header
 {
-    max-width: 1440px;
+    max-width: 100%;
+    border: 2px solid red;
+    
+    /* margin: 10px 20px; */
     /* max-height: 1000px; */
-    margin: 0 auto;
+     margin: 0 auto; 
     border: 2px solid black;
     /* margin-top: 35px; */
     /* background: rgb(7,6,24); */
@@ -35,7 +41,7 @@ body
 } 
 .navigation-bar,.banner
 {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -108,7 +114,7 @@ body
  {
     border: 2px solid red;
     display: flex;
-    max-width: 1440px;
+    max-width: 100%;
     /* max-height: 630px; */
     margin: 0 auto;
     margin-top: 30px;
@@ -217,10 +223,10 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
     margin-bottom: 500px; */
     width: 100%;
     height: 100%;
-    left: 90px;
-    right: 255px;
-    top:415px;
-    bottom: 150px;
+    left: 5.625rem;
+    right: 15.9375rem;
+    top:25.9375rem;
+    bottom: 9.375rem;
  }
  .box-content
  {
@@ -246,9 +252,9 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
     position: absolute;
     width: 100%;
     height: 100%;
-    top:120px;
-    left: 410px;
-    right: 200px;
+    top:7.5rem;
+    left: 25.635rem;
+    right: 12.5rem;
  }
 
  .box
@@ -261,8 +267,8 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
 
  .change-habit{
 
-   max-width: 1044px;
-   max-height: 452px;
+   max-width: 1440px;
+   /* max-height: 452px; */
    margin: 0 auto;
    margin-top: 50px;
    border: 2px solid red;
@@ -295,6 +301,7 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
  .card-content
  {
    text-align: center;
+   /* position: fixed; */
  }
  .card-img
  {
@@ -309,7 +316,7 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
  .run-section
  {
    max-width: 1060px;
-   max-height: 371px;
+   /* max-height: 371px; */
    margin: 0 auto;
    border-radius: 20px 20px;
    align-items: center;
@@ -365,7 +372,7 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
  {
    max-width: 1440px;
    /* max-height: 2000px; */
-   height: 31.25rem;
+   /* height: 31.25rem; */
    margin: 0 auto;
    display: flex;
    align-items: center;
@@ -378,7 +385,7 @@ background: linear-gradient(13deg, rgb(32, 29, 29) 0%, rgba(73, 73, 73, 1) 80%);
    border: 2px solid red;
    margin-right: 150px;
    margin-top: 90px;
-   margin-bottom: 270px;
+   /* margin-bottom: 270px; */
 }
  table, th, td {
    border: 1px solid black;
@@ -558,4 +565,154 @@ border-radius: 8px 8px;
 h4
 {
    color:rgb(96,96,96);
+}
+
+#display
+{
+   display: none;
+}
+@media (min-width: 577px) {
+   .menu{
+       display: none;
+   }
+}
+
+@media screen and (max-width: 576px)
+{
+   header
+   {
+      max-width:100%;
+   }
+   .nav-ul
+   {
+      display: none;
+   }
+
+   .banner
+   {
+      flex-direction: column;
+      /* padding: 200px; */
+   }
+
+   .banner-content,.nav-title
+   {
+      margin-left: 16px;
+   }
+   .body
+{
+   width: 100%;
+   margin-right: -0px;
+   /* margin-right: 50px; */
+   /* margin-right: -200px; */
+   /* margin-right: 500px; */
+   /* margin-left: -50px; */
+
+}
+.body-img
+{
+   width: 90%;
+   margin-left: 125px;
+
+   /* height: 20rem; */
+   /* margin-right: 30px; */
+}
+.img-part
+{
+   width: 100%;
+   margin-left: -90px;
+   /* margin-right: 100px; */
+}
+.box-1
+{
+   top:29rem;
+}
+
+.menubar
+{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.menu-bar
+{
+   width: 20%;
+   margin-left: 180px;
+   margin-top: 15px;
+   -webkit-filter: invert(100%);
+   filter: invert(100%);
+}
+
+.card-container
+{
+   grid-template-columns: repeat(1, 1fr);
+   gap: 24px;
+   /* width: 50%; */
+   /* margin-left: 50px; */
+} 
+.card-img
+{
+   margin-left: 190px;
+}
+
+.run-section
+{
+   flex-direction: column;
+}
+.bmi-clac-section
+{
+   flex-direction: column;
+   /* margin-left: 20px; */
+}
+.bmi-table
+{
+   margin-left: -30px;
+}
+.form
+{
+   margin-left: 30px;
+}
+.form-container input[type="text"],select
+{
+   /* padding: 6px; */
+   /* margin: 4px; */
+   /* width: 95%; */
+   margin-right: 5px;
+}
+/* .team-member-container
+{
+   max-width: 90%;
+   grid-template-columns: repeat(1,1fr);
+} */
+/* align-items: center; */
+/* margin-left: -40px; */
+/* .trainer-img
+{
+   width: 100%;
+   
+}
+.t-full
+{
+   margin-right: 30px;
+   margin-left: 55px;
+}
+#jm,#dr
+{
+   display: none;
+} */
+
+.content-container
+{
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+
+} 
+.content-1
+{
+   margin-right:60px ;
+}
+.content-2,.content-3{
+    margin-left: 30px;
+}
+
 }
