@@ -125,7 +125,7 @@ body
     max-height: 450px;
     margin: 0 auto;
     margin-left: 150px;
-    margin-top: 90px;
+    margin-top: 0px;
     /* text-align: center; */
     /* margin-bottom: 40px; */
     border: 2px solid red;
@@ -139,6 +139,11 @@ body
     margin-bottom: 20px;
     color: white;
 
+ }
+
+ .banner-head-para
+ {
+   border: 2px solid red;
  }
 
  .healthy
@@ -586,13 +591,19 @@ border-radius: 8px 8px;
 
 }
 
-#sola
+ #sola
 {
-   padding: 10px;
-}
+   padding: 12px;
+} 
+
+
 #goldline,#circle,#amara
 {
    padding: 15px;
+}
+#nira
+{
+  padding: 23px;
 }
 /* Footer Section */
 
@@ -668,6 +679,7 @@ h4
    header
    {
       max-width:100%;
+      /* max-width: -200px; */
    }
    .nav-ul
    {
@@ -687,7 +699,7 @@ h4
    .body
 {
    width: 100%;
-   margin-right: -0px;
+   /* margin-right: -20px; */
    /* margin-right: 50px; */
    /* margin-right: -200px; */
    /* margin-right: 500px; */
