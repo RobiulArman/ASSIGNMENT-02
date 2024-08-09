@@ -24,12 +24,13 @@ body
  header
 {
     max-width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
     /* margin: 10px 20px; */
     /* max-height: 1000px; */
      margin: 0 auto; 
     border: 2px solid black;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     /* margin-top: 35px; */
     /* background: rgb(7,6,24); */
     background: linear-gradient(90deg, rgb(20, 19, 19) 4%, rgb(32, 32, 32) 28%, rgb(20,19,19) 96%); 
@@ -83,7 +84,7 @@ body
  .nav-title
 
  {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: inline-block;
     /* margin-bottom: 1px; */
     /* margin-top: -5px; */
@@ -112,7 +113,7 @@ body
 
  .banner
  {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     max-width: 100%;
     /* max-height: 630px; */
@@ -131,7 +132,7 @@ body
     margin-top: 90px;
     /* text-align: center; */
     /* margin-bottom: 40px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
  }
  .banner-head
  {
@@ -185,7 +186,7 @@ body
  }
  .img-part
  {
-    border: 2px solid rgb(0, 189, 142);
+    /* border: 2px solid rgb(0, 189, 142); */
     position: relative;
     margin-right: 10px;
     /* max-width: 500px; */
@@ -200,7 +201,7 @@ body
     margin-left: 200px;
     /* padding: 20px 20px; */
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
 }
  .body
@@ -292,7 +293,7 @@ body
    /* max-height: 452px; */
    margin: 0 auto;
    margin-top: 50px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    background-color: black;
 
  }
@@ -346,7 +347,7 @@ body
    justify-content: center;
    display: flex;
    margin-top: 50px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    background-color: rgb(34,34,34);
  }
 
@@ -386,7 +387,7 @@ body
    margin: 0 auto;
    margin-top: 50px;
    margin-bottom: 50px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    background-color: black;
    text-align: left;
  }
@@ -403,12 +404,12 @@ body
    display: flex;
    align-items: center;
    justify-content: center;
-   border: 2px solid red;
+   /* border: 2px solid red; */
    background-color: rgb(34,34,34);
  }
 .bmi-table
 {
-   border: 2px solid red;
+   /* border: 2px solid red; */
    margin-right: 150px;
    margin-top: 90px;
    /* margin-bottom: 270px; */
@@ -477,7 +478,7 @@ border-radius: 8px 8px;
    margin: 0 auto;
    /* margin-top: 20px; */
    background-color: rgb(0, 0, 0);
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 
 .team-section-content
@@ -489,7 +490,7 @@ border-radius: 8px 8px;
 {
    max-width: 850px;
    /* max-height: 1000px; */
-   border: 2px solid red;
+   /* border: 2px solid red; */
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -542,8 +543,8 @@ border-radius: 8px 8px;
    /* max-height: 452px; */
    margin: 0 auto;
    margin-top: 50px;
-   margin-bottom: 50px;
-   border: 2px solid red;
+   margin-bottom: 60px;
+   /* border: 2px solid red; */
    background-color:rgb(41,44,49);
    background-color: rgb(34,34,34);
 }
@@ -555,8 +556,9 @@ border-radius: 8px 8px;
        /* line-height: 4.3rem; */
        font-size: 3rem;
        font: bold;
-       margin-top: 20px;
+       margin-top: 50px;
        color: rgb(235, 235, 235);
+       /* border: 2px solid red; */
 }
 .brand-para
 {
@@ -577,7 +579,8 @@ border-radius: 8px 8px;
    gap: 24px;
    margin-left: 60px;
    margin-top: 70px;
-   margin-bottom: 60px;
+   margin-bottom: 70px;
+   /* border: 2px solid red; */
 }
 
 .brand-img
